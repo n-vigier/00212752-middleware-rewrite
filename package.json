@@ -1,0 +1,29 @@
+{
+  "name": "vercel-ticket",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "5.1.0",
+    "@astrojs/vercel": "7.4.0",
+    "@astrojs/vue": "^4.0.9",
+    "@fontsource/inter": "^5.0.17",
+    "@fontsource/open-sans": "^5.0.27",
+    "@fontsource/source-serif-pro": "^5.0.8",
+    "astro": "^4.5.9",
+    "@astrojs/check": "^0.5.10",
+    "tailwindcss": "3.4.1",
+    "typescript": "^5.4.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
