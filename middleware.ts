@@ -31,3 +31,7 @@ export default function middleware(request: Request) {
   console.log('Blog not matched');
 
 }
+
+export const config = {
+  matcher: ['/((?!api|_astro/|favicon.ico).*)'],
+};
