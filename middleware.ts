@@ -5,6 +5,8 @@ export default function middleware(request: Request) {
   const hostname = request.headers.get('host');
   const path = url.pathname;
   console.log({ url: JSON.stringify(url, null, 2), hostname, path });
+  console.log(process.env);
+  
 
   if (hostname === 'docs.nicolas-vigier.com') {
     console.log(`Rewriting /docs${path}`);
